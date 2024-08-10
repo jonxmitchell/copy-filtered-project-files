@@ -1,6 +1,6 @@
 # 📂 Copy Filtered Project Files
 
-ProjectSift is a simple and efficient tool to selectively copy essential files from a project directory while excluding unnecessary folders like `node_modules` and/or files like `app.log`, build directories, and lock files. Perfect for streamlining your project backups or sharing a clean version of your codebase.
+Copy Filtered Project Files is a simple and efficient tool to selectively copy essential files from a project directory while excluding unnecessary folders like `node_modules` and/or files like `app.log`, build directories, and lock files. Perfect for streamlining your project backups or sharing a clean version of your codebase.
 
 # ✨ Features
 
