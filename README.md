@@ -39,7 +39,7 @@ Copy code
 
 - Source Directory: Update the $rootDirectory variable in `CopyFilteredProjectFiles.ps1` to point to your project directory.
 - Destination Directory: Change the $destinationDirectory variable to set where the filtered files should be copied.
-- Exclusion Lists: Adjust the $excludedFolders and `$excludedFiles` arrays to exclude additional files or folders.
+- Exclusion Lists: Adjust the `$excludedFolders` and `$excludedFiles` arrays to exclude additional files or folders.
 
 # 🚀 Getting Started
 
