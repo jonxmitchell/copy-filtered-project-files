@@ -33,7 +33,6 @@ Copy Filtered Project Files is a simple and efficient tool to selectively copy e
 Copy code
 ├── CopyFilteredProjectFiles.ps1  # PowerShell script for filtering and copying files
 ├── RunCopyFilteredProjectFiles.bat  # Batch script to run the PowerShell script
-├── README.md  # Project documentation
 ```
 
 # ⚙️ Customization
