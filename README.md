@@ -14,6 +14,17 @@ Copy Filtered Project Files is a simple and efficient tool to selectively copy e
 
    - Modify the exclusion lists in `CopyFilteredProjectFiles.ps1` to suit your needs.
    - You can exclude folders like `node_modules`, `build` and files like `package-lock.json`, `.log` files, etc.
+   - Exclude folder and its subfolders and files within using:
+
+   ```bash
+    $excludedFolders = @("out", ".webpack", "node_modules", "target", "icons", "build")
+   ```
+
+   - Exlcude files using:
+
+   ```bash
+   $excludedFiles = @("package-lock.json", "Cargo.lock", "app.log")
+   ```
 
 2. Run the Batch Script:
 
@@ -21,6 +32,10 @@ Copy Filtered Project Files is a simple and efficient tool to selectively copy e
 
 3. Check the Destination:
    - The filtered files will be copied to the specified destination directory, ready for use or sharing.
+   - You can edit the destination location output by editting:
+   ```bash
+    $rootDirectory = "C:\Users\user\Desktop\project-folder"
+   ```
 
 # 📁 Directory Structure
 
